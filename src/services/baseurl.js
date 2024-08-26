@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://authserver-93w0.onrender.com'

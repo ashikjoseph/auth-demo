@@ -1,0 +1,31 @@
+.header {
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #007BFF;
+}
+
+@media (max-width: 576px) {
+  .nav-links a {
+    font-size: 16px; 
+    margin: 0 10px;  
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-links a {
+    font-size: 14px; 
+    margin: 0 8px;  
+  }
+}
