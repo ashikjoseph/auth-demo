@@ -65,7 +65,7 @@
 .footer-column a {
   text-decoration: none;
   color: black;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .footer-column ul li a:hover {
@@ -131,11 +131,11 @@
   .footer-column {
     margin: 0 0 20px; 
     width: 100%; 
-    text-align: center; 
+    text-align: start; 
   }
 
   .footer-right-bottom {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
   }
 }
@@ -155,13 +155,15 @@
   .footer-left,
   .footer-right-bottom {
     margin: 0 auto;
+    flex-direction: column;
   }
 
   .footer-column{
-    margin-top: 5px;
+    margin-top: 7px;
   }
 
   .footer-right-bottom a {
+    margin-bottom: 6px;
     margin-left: 0;
   }
 }

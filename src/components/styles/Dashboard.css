@@ -169,18 +169,69 @@
     justify-content: center;
     align-items: center;
     width: 400px;
+    margin: 0 auto;
 }
+
 
 @media (max-width: 1200px) {
     .chart-container {
-        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .chart-container {
+        max-width: 300px;
     }
 }
 
 @media (max-width: 768px) {
     .chart-container {
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        padding: 20px; 
         margin-bottom: 20px;
     }
 }
+
+@media (max-width: 576px) {
+    .chart-container {
+        padding: 15px; 
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 775px) {
+    .chart-container {
+        max-width: 90%; 
+        height: auto;
+        padding: 20px; 
+        margin: 10px auto 20px; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+}
+
+@media (max-width: 992px) {
+    .dashboard-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 10px; /* Adjust padding further for smaller screens */
+        max-width: 100%; /* Ensure container fits within viewport width */
+    }
+}
+
+/* Media query for extra small screens (e.g., very small mobile devices) */
+@media (max-width: 576px) {
+    .dashboard-container {
+        padding: 5px; /* Further reduce padding for very small screens */
+    }
+}
+
